@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>乐天MP3爱好者 | 专注于BGM背景音乐资源下载分享</title>
+<meta name="Keywords" content="乐天MP3,背景音乐,背景音乐下载,乐天MP3下载,经典背景音乐,好听的背景音乐,背景音乐网">
+<meta name="Description" content="乐天MP3爱好者(ltmp3.cn)专注乐天MP3资源分享下载，提供最好听的背景音乐推荐、排行、在线试听，欢迎共同爱好乐天MP3的朋友一起分享优质乐天MP3！">
+
+<link rel="stylesheet" type="text/css" href="../cscms/tpl/skins/default/css/style.css">
+<meta name="generator" content="Cscms v4.x">
+<meta name="author" content="Cscms Team and Cscms UI Team">
+<meta name="copyright" content="2008-2015 Chshcms.com Inc.">
+<script type='text/javascript'>var cscms_path='http://www.ltmp3.cn/';</script>
+<script type='text/javascript' src='../packs/js/jquery.min.js'></script>
+<script type='text/javascript' src='../packs/js/cscms.js'></script>
+</head>
+<body>
+
+<div id="header">
+<div class="box">
+<div class="logo">
+<a href="../index.html" title="乐天MP3FANS-新闻"></a>
+</div>
+<ul id="menu">
+<li><a class="ok" href="../index.html">首页</a></li>
+<li><a href="../BGMindex.html">乐天MP3大全</a></li>
+<li><a href="../vod/index.html">乐天MP3视频</a></li>
+<li><a href="../news/index.html">乐天MP3资讯</a></li>
+<li><a href="../user/index.html">会员中心</a></li>
+</ul></div></div>
+<div id="nav">
+<div class="navs">
+<div class="login">
+<div id='cscms_login'></div>
+                          <script type='text/javascript'>
+                                       var cscms_loginlink='http://www.ltmp3.cn/index.php/api/ulog/log/index';
+                                       var cscms_loginaddlink='http://www.ltmp3.cn/index.php/api/ulog/login';
+                                       var cscms_logoutlink='http://www.ltmp3.cn/index.php/api/ulog/logout';
+                                       cscms_login();
+                         </script>
+</div>
+<div class="serach">
+                <div class="seh_list">
+                    <strong><a href="javascript:;" class="seh_list_a"><span id="keytxt">乐天MP3</span><b class="arrow"></b></a></strong>
+                    <div class="seh_sort" id="seh_sort" style="display:none;">
+
+                        <a href="javascript:getsearch('dance','乐天MP3');">乐天MP3</a>
+
+                        <a href="javascript:getsearch('news','乐天MP3资讯');">乐天MP3资讯</a>
+
+                        <a href="javascript:getsearch('pic','图库');">图库</a>
+
+                        <a href="javascript:getsearch('singer','歌手');">歌手</a>
+
+                        <a href="javascript:getsearch('vod','乐天MP3视频');">乐天MP3视频</a>
+
+                    </div>
+                </div>
+                <div class="seh_m">
+				    <input type="hidden" value="dance" id="keytype">
+				    <input class="seh_v" type="text" name="key" x-webkit-speech="" x-webkit-grammar="builtin:translate">
+				    <button onclick="search_ok();" class="seh_b">搜 索</button>
+				</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>so.init();</script>
+<div class="tophead"></div>
+
+
+<div class="wrap mt20" style="margin-top:10px;margin-bottom:10px;">
+     <div class="musicRank clearfix" style="border:1px solid #D9D9D9;background:#FFF;padding:10px;">
+	   <h2 style="font-size:16px;padding:5px;">网站留言</h2>
+       <div id='cscms_gbook'><img src='../packs/images/load.gif'>&nbsp;&nbsp;加载留言内容,请稍等......</div>
+<script type='text/javascript'>cscms_gbook(1,0,0);</script>
+    </div>
+</div>
+<div id="footer">
+	<li>
+<a href="../index.html" target="diy">关于我们</a>&#160;- &#160;
+<a href="../news/show-2.html" target="diy">权利声明</a>&#160;- &#160;
+<a href="javascript:;" target="diy">联系站长</a>&#160;- &#160;
+<a href="javascript:;" target="diy">商务合作</a>&#160;- &#160;
+<a href="" target="_blank">意见留言</a>
+        </li>
+	<li>Copyright @2014 - 2021 BMG爱好者 All Rights Reserved <a href="javascript:;" target="_blank"></a> <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e96cd3de9bf75700ce29c2e3e42e17de";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></li>
+<li>本站所有音乐均由网友上传发布，版权为原作者所有，如有侵犯权益，请联系我们删除！</li>
+</div>
+<script src="../packs/js/jquery.lazyload-1.9.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   //图片延时
+   $("img.lazy").lazyload({effect: "fadeIn"});
+	var n=0;
+	var x=0;
+	var top_btn = $("<span id='top_btn'><a title='回到顶部' href='#top'></a></span>");
+	$("body").append(top_btn);
+	$("body").attr("id","top");
+	var fe=$("#top_btn");
+	window.onscroll=function(){
+		x=(document.body.scrollTop||document.documentElement.scrollTop)+n;
+		if(x==0){fe.fadeOut().hide()}else{fe.fadeIn().show()};
+	};
+});
+</script>
+
+
+
+</body>
+</html>
+
